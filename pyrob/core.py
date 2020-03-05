@@ -228,7 +228,7 @@ def move_left(n=1):
 
 @log_invocation
 @public
-def move_right(n=1):
+def move_right(n: object = 1) -> object:
     repeat(n, step_right)
 
 
